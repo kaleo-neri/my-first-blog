@@ -5,7 +5,14 @@
     <title>Primeiratelameuamigo</title>
 </head>
 <body>
-<a href="https://www.infojobs.com.br/candidate/cv/insert.aspx?xtor=SEC-366332429-GOO-[Palabras_2019_4]-295590409577-S-[procura%20se%20emprego]&xts=472214&origenvisita=384&gclid=EAIaIQobChMIjIrokeuR5AIVhwqRCh1I8w4yEAAYASAAEgJz6vD_BwE">Click aqui para ficar feliz!</a>
+   <div>
+    <h1><a href="/">Django Girls Blog</a></h1>
+</div>
 
+{% for post in posts %}
+    <div>
+        {{ post.title }}
+    </div>
+{% endfor %}
 </body>
 </html>
